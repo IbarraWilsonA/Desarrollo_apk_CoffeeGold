@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonInformes"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="@color/pick_bank"
+        android:text="ABOUT"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCompras"
+
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="@color/orange"
+        android:text="SETTING"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonUbicacion"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="@color/green"
+        android:text="MAPS"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonSalir"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="460dp"
+        android:text="CLOSE"
+        android:textColor="@color/blue"
+        android:textSize="15dp"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#22E40C" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="252dp"
+        android:backgroundTint="@color/white_suce"
+        android:text="LOGIN USER"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/buttonTex"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="299dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="552dp"
+        android:text="IT DOESN'T MATTER HOW MUCH YOU KNOW, IT MATTERS HOW MUCH YOU DO WITH WHAT YOU KNOW."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/orange" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="164dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login1" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
